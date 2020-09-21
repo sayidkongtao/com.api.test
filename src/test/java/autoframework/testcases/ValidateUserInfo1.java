@@ -29,7 +29,7 @@ public class ValidateUserInfo1 {
         userSteps.validatePhone("15827521824");
     }
 
-    @Story("Story: Validate user email and phone in DB DB phase 3")
+    @Story("Story: Validate user email and phone in DB phase 3")
     @Test(description = "[Case number]: validate user email and phone in DB")
     @Description("Case Steps: " +
             "1. Login in to oneapp " +

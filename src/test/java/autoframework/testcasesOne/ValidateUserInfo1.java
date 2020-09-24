@@ -1,4 +1,4 @@
-package autoframework.testcases;
+package autoframework.testcasesOne;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -6,12 +6,14 @@ import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.testng.annotations.Test;
 
-@Epic("Epic 1")
-@Feature("Feature: ValidateUserInfo 1")
-public class ValidateUserInfo {
 
-    @Story("Story: validate user email and phone in DB phase 1")
-    @Test(description = "[Case number]: validate user email and phone in DB", timeOut = 1500)
+@Epic("Epic 2")
+@Feature("Feature: ValidateUserInfo 2")
+public class ValidateUserInfo1 {
+
+
+    @Story("Story: Validate user email and phone in DB phase 2")
+    @Test(description = "[Case number]: validate user email and phone in DB")
     @Description("Case Steps: " +
             "1. Login in to oneapp " +
             "2. Create account " +
@@ -24,10 +26,10 @@ public class ValidateUserInfo {
         userSteps.createAccount();
         userSteps.getEmailAndPhoneFromDB();
         userSteps.validateEmail("test@demo.com");
-        userSteps.validatePhone("15827521823");
+        userSteps.validatePhone("15827521824");
     }
 
-    @Story("Story: validate user email and phone in DB phase 1")
+    @Story("Story: Validate user email and phone in DB phase 3")
     @Test(description = "[Case number]: validate user email and phone in DB")
     @Description("Case Steps: " +
             "1. Login in to oneapp " +
@@ -40,7 +42,7 @@ public class ValidateUserInfo {
         userSteps.login();
         userSteps.createAccount();
         userSteps.getEmailAndPhoneFromDB();
-        userSteps.validateEmail("test1@demo.com");
+        userSteps.validateEmail("test@demo.com");
         userSteps.validatePhone("15827521823");
     }
 }

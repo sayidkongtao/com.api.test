@@ -1,4 +1,4 @@
-package autoframework.testcases;
+package autoframework.testcasesOne;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class ValidateUserInfo {
 
     @Story("Story: validate user email and phone in DB phase 1")
-    @Test(description = "[Case number]: validate user email and phone in DB", timeOut = 1500)
+    @Test(description = "[Case number]: validate user email and phone in DB")
     @Description("Case Steps: " +
             "1. Login in to oneapp " +
             "2. Create account " +

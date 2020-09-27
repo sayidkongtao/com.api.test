@@ -1,4 +1,4 @@
-package autoframework.testcasesOne;
+package autoframework.testcases.Security;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;

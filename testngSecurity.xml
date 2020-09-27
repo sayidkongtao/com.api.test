@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="DemoOne" preserve-order="true">
+<suite name="Security" preserve-order="true">
 
-    <test name="DemoOne">
+    <test name="Security">
         <packages>
-            <package name="autoframework.testcases"></package>
+            <package name="autoframework.testcases.Security"></package>
         </packages>
     </test>
 

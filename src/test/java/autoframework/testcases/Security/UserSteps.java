@@ -1,8 +1,7 @@
-package autoframework.testcases;
+package autoframework.testcases.Security;
 
 import autoframework.utils.Utils;
 import io.qameta.allure.Step;
-import org.testng.annotations.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;

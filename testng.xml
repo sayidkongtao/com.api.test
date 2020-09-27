@@ -2,7 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="DemoSummary" preserve-order="true">
     <suite-files>
-        <suite-file path="testng1.xml"></suite-file>
-        <suite-file path="testng2.xml"></suite-file>
+        <suite-file path="testngUserInterface.xml"></suite-file>
+        <suite-file path="testngPerformance.xml"></suite-file>
+        <suite-file path="testngSecurity.xml"></suite-file>
     </suite-files>
 </suite>

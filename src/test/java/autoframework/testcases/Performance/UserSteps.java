@@ -1,4 +1,4 @@
-package autoframework.testcasesOne;
+package autoframework.testcases.Performance;
 
 import autoframework.utils.Utils;
 import io.qameta.allure.Step;

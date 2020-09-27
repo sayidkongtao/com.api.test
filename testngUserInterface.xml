@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functionality" preserve-order="true">
+
+    <test name="Functionality">
+        <packages>
+            <package name="autoframework.testcases.UserInterface"></package>
+        </packages>
+    </test>
+
+    <!--报表监听器：reportng渲染报表用的-->
+    <listeners>
+    </listeners>
+
+</suite>

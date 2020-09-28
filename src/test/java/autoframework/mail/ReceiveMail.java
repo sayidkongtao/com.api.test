@@ -100,7 +100,7 @@ public class ReceiveMail {
 
         // Get the store
         this.store = session.getStore();
-        store.connect(props.getProperty("mail.pop3.host"), username, password);
+        store.connect(props.getProperty("mail.host"), username, password);
     }
 
     private Message[] getMessage() throws MessagingException {

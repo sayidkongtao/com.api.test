@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Functionality" preserve-order="true">
-
     <test name="Functionality">
         <packages>
             <package name="autoframework.testcases.UserInterface"></package>
+        </packages>
+    </test>
+    <test name="Functionality1">
+        <packages>
+            <package name="autoframework.testcases.UserInterface1">
+
+            </package>
+        </packages>
+    </test>
+    <test name="Functionality2" enabled="false">
+        <packages>
+            <package name="autoframework.testcases.UserInterface2" />
         </packages>
     </test>
 

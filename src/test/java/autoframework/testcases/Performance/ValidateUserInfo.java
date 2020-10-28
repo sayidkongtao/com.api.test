@@ -4,14 +4,16 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
+import org.testng.TestRunner;
 import org.testng.annotations.Test;
 
 @Epic("Epic 1")
 @Feature("Feature: ValidateUserInfo 1")
 public class ValidateUserInfo {
+    final boolean flag = false;
 
     @Story("Story: validate user email and phone in DB phase 1")
-    @Test(description = "[Case number]: validate user email and phone in DB", timeOut = 1500)
+    @Test(description = "[Case number]: validate user email and phone in DB", timeOut = 1500, enabled = flag)
     @Description("Case Steps: " +
             "1. Login in to oneapp " +
             "2. Create account " +

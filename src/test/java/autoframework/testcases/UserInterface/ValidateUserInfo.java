@@ -4,8 +4,11 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
+import org.testng.annotations.TestInstance;
 
+@Ignore
 @Epic("Epic 1")
 @Feature("Feature: ValidateUserInfo 1")
 public class ValidateUserInfo {

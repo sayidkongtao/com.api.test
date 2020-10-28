@@ -1,4 +1,4 @@
-package autoframework.testcases.Performance;
+package autoframework.testcases.UserInterface2;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 @Epic("Epic 2")
 @Feature("Feature: ValidateUserInfo 2")
 public class ValidateUserInfo1 {
+
 
     @Story("Story: Validate user email and phone in DB phase 2")
     @Test(description = "[Case number]: validate user email and phone in DB")
